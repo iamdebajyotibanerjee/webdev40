@@ -164,11 +164,36 @@ body {
   justify-content: space-between;
 }
 
+.pricing-plan {
+  padding: 1em 2em;
+  margin: 0 auto;
+  border-bottom: #7a7a7a 1px solid;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.025rem;
+}
+
+.pricing-plan img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1em;
+}
+
 
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
   .panel {
     flex-direction: row;
+  }
+
+  .pricing-plan {
+    border-bottom: none;
+  }
+
+  .pricing-plan:nth-of-type(1),
+  .pricing-plan.pricing-plan:nth-of-type(2) {
+    border-bottom: none;
+    border-right: #7a7a7a 1px solid;
   }
 }
