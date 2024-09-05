@@ -19,7 +19,17 @@ html {
 
 .container {
     margin: 0 auto;
-    width: 100%;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-r {
+    margin: 0 auto;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -53,7 +63,7 @@ h1 {
 
 p, a, li, input {
     font-size: 1rem;
-    margin-bottom: 0.5rem;
+    margin: 1rem 0;
 }
 
 /* General Styles */
@@ -83,6 +93,7 @@ p, a, li, input {
     background-color: blueviolet;
     color: aliceblue;
 }
+
 
 
 /* Media Queries */
@@ -126,6 +137,13 @@ p, a, li, input {
         border: none;
         border-radius: 8px;
         text-decoration: none;
+    }
+
+    .container-r {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 
