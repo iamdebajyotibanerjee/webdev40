@@ -140,7 +140,6 @@ p, a, li, input {
     }
 
     .container-r {
-        display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
