@@ -20,7 +20,7 @@ html {
 .container {
     margin: 0 auto;
     width: 70%;
-    height: ;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,15 +81,6 @@ p, a, li, input {
     height: 60vh;
 }
 
-#hero::after {
-    position: relative;
-    top: 50px;
-    left: 0;
-    width: 70%;
-    height: 5rem;
-    content: url(/assets/wavy-lines.svg);
-}
-
 .display-lg-heading {
     font-size: 2rem;
 }
@@ -103,6 +94,15 @@ p, a, li, input {
     color: aliceblue;
 }
 
+#hero .container::after {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top: -200px;
+    left: 0;
+    content: url('/assets/wavy-lines.svg');
+}
+
 
 
 /* Media Queries */
@@ -110,6 +110,15 @@ p, a, li, input {
 @media screen and (min-width: 400px) {
     #hero {
         height: 60vh;
+    }
+
+    #hero .container::after {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        top: -80px;
+        left: 0;
+        content: url('/assets/wavy-lines.svg');
     }
 
     .display-lg-heading {
