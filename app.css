@@ -112,15 +112,6 @@ p, a, li, input {
         height: 60vh;
     }
 
-    #hero .container::after {
-        position: relative;
-        width: 100%;
-        height: 100px;
-        top: -80px;
-        left: 0;
-        content: url('/assets/wavy-lines.svg');
-    }
-
     .display-lg-heading {
         font-size: 2rem;
     }
@@ -140,6 +131,15 @@ p, a, li, input {
 @media screen and (min-width: 768px) {
     #hero {
         height: 100vh;
+    }
+
+    #hero .container::after {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        top: -400px;
+        left: 0;
+        content: url('/assets/wavy-lines.svg');
     }
 
     .display-lg-heading {
