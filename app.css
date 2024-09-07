@@ -81,6 +81,15 @@ p, a, li, input {
     height: 60vh;
 }
 
+#hero::after {
+    position: relative;
+    top: 50px;
+    left: 0;
+    width: 70%;
+    height: 5rem;
+    content: url(/assets/wavy-lines.svg);
+}
+
 .display-lg-heading {
     font-size: 2rem;
 }
