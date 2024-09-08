@@ -94,14 +94,6 @@ p, a, li, input {
     color: aliceblue;
 }
 
-#hero .container::after {
-    position: relative;
-    width: 100%;
-    height: 100px;
-    top: -200px;
-    left: 0;
-    content: url('/assets/wavy-lines.svg');
-}
 
 
 
@@ -133,14 +125,6 @@ p, a, li, input {
         height: 100vh;
     }
 
-    #hero .container::after {
-        position: relative;
-        width: 100%;
-        height: 100px;
-        top: -400px;
-        left: 0;
-        content: url('/assets/wavy-lines.svg');
-    }
 
     .display-lg-heading {
         font-size: 3rem;
