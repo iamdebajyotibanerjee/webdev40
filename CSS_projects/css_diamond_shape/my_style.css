@@ -27,10 +27,10 @@ div {
 #top-right,
 #bottom-left,
 #bottom-right {
-  border-top: 50px solid #fff;
-  border-right: 50px solid #f8f8f8;
-  border-bottom: 50px solid #fafafa;
-  border-left: 50px solid #fff;
+  border-top: 50px solid red;
+  border-right: 50px solid blue;
+  border-bottom: 50px solid yellow;
+  border-left: 50px solid green;
 }
 
 #bottom-left,
